@@ -13,7 +13,7 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-    this.load.spritesheet("knight", "assets/sprite/FreeKnight_v1/Colour1/Outline/120x80_PNGSheets/_Idle.png", {
+    this.load.spritesheet("knight", "assets/sprite/FreeKnight_v1/120x80_PNGSheets/_Idle.png", {
         frameHeight : 80,
         frameWidth : 120
     });
