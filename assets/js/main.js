@@ -1,6 +1,6 @@
 let gameSettings = {
 	playerSpeed: 200,
-	roll: 5000,
+	playerJump: 1000,
 }
 
 const config = {
