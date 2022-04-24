@@ -29,7 +29,7 @@ class Scene1 extends Phaser.Scene {
 		this.scene.start("playGame");
 		
 		this.anims.create({
-			key: "knight_idle",
+			key: "knight_Idle",
 			frames: this.anims.generateFrameNumbers("knight_idle"),
 			frameRate: 10,
 			repeat: -1
