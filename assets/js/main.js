@@ -1,12 +1,11 @@
 let gameSettings = {
 	playerSpeed: 200,
-	playerJump: 1000,
 }
 
 const config = {
     type: Phaser.AUTO,
-    width: 928,
-    height: 793,
+    width: 1080,
+    height: 720,
     pixelArt: true,
 	physics: {
 		default: "arcade",

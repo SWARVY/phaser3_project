@@ -4,31 +4,14 @@ class Scene1 extends Phaser.Scene {
 	}
 	
 	preload() {
-		this.load.image("background", "assets/sprite/Forest/Preview/Background.png");
-		
-		this.load.spritesheet("knight_idle", "assets/sprite/FreeKnight_v1/120x80_spritesheets/_Idle.png", {
-			frameWidth: 120,
-			frameHeight: 80 
+		this.load.image("background", "assets/sprite/bg.png");
+		this.load.spritesheet("knight_idle", "assets/sprite/dungeon_crawler/heroes/knight/knight_idle_spritesheet.png", {
+			frameWidth: 16,
+			frameHeight: 16
 		});
-		this.load.spritesheet("knight_turn", "assets/sprite/FreeKnight_v1/120x80_spritesheets/_TurnAround.png", {
-			frameWidth: 120,
-			frameHeight: 80 
-		});
-		this.load.spritesheet("knight_attack1", "assets/sprite/FreeKnight_v1/120x80_spritesheets/_Attack1.png", {
-			frameWidth: 120,
-			frameHeight: 80 
-		});
-		this.load.spritesheet("knight_run", "assets/sprite/FreeKnight_v1/120x80_spritesheets/_Run.png", {
-			frameWidth: 120,
-			frameHeight: 80 
-		});
-		this.load.spritesheet("knight_roll", "assets/sprite/FreeKnight_v1/120x80_spritesheets/_Roll.png", {
-			frameWidth: 120,
-			frameHeight: 80 
-		});
-		this.load.spritesheet("knight_jump", "assets/sprite/FreeKnight_v1/120x80_spritesheets/_Jump.png", {
-			frameWidth: 120,
-			frameHeight: 80 
+		this.load.spritesheet("knight_run", "assets/sprite/dungeon_crawler/heroes/knight/knight_run_spritesheet.png", {
+			frameWidth: 16,
+			frameHeight: 16
 		});
 	}
 	
@@ -43,34 +26,10 @@ class Scene1 extends Phaser.Scene {
 			repeat: -1
 		});
 		this.anims.create({
-			key: "knight_TurnAround",
-			frames: this.anims.generateFrameNumbers("knight_turn"),
-			frameRate: 24,
-			repeat: -1
-		});
-		this.anims.create({
-			key: "knight_Attack1",
-			frames: this.anims.generateFrameNumbers("knight_attack1"),
-			frameRate: 24,
-			repeat: -1
-		});
-		this.anims.create({
 			key: "knight_Run",
 			frames: this.anims.generateFrameNumbers("knight_run"),
-			frameRate: 24,
-			repeat: -1
-		});
-		this.anims.create({
-			key: "knight_Roll",
-			frames: this.anims.generateFrameNumbers("knight_roll"),
-			frameRate: 30,
-			repeat: 1
-		});
-		this.anims.create({
-			key: "knight_Jump",
-			frames: this.anims.generateFrameNumbers("knight_jump"),
 			frameRate: 10,
-			repeat: 1
+			repeat: -1
 		});
 	}
 }
