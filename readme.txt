@@ -23,3 +23,18 @@ https://overboy.itch.io/astronaut-pixelart-character-pack
 
 https://deakcor.itch.io/zelda-like-futuristic-tileset
 ㄴ 미래공간 컨셉 타일 4.9달러
+
+https://limofeus.itch.io/pixel-simulations
+ㄴ 이펙트
+
+https://winlu.itch.io/winlus-cyberpunk-tileset-1-interior
+ㄴ 사이버펑크풍 타일셋 17.95달러
+
+https://ivess.itch.io/ivesss-firearms-pack
+ㄴ 총 시안 1번
+
+https://vladpenn.itch.io/weapon
+ㄴ 총 시안 2번
+
+https://snoopethduckduck.itch.io/guns
+ㄴ 총 시안 3번 (좀 화려한데 안어울릴듯)

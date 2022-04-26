@@ -4,6 +4,7 @@ class Scene1 extends Phaser.Scene {
 	}
 	
 	preload() {
+		this.load.script("character", "assets/js/Character.js");
 		this.load.image("background", "assets/sprite/bg.png");
 		this.load.spritesheet("knight_idle", "assets/sprite/dungeon_crawler/heroes/knight/knight_idle_spritesheet.png", {
 			frameWidth: 16,
