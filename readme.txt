@@ -33,8 +33,20 @@ https://winlu.itch.io/winlus-cyberpunk-tileset-1-interior
 https://ivess.itch.io/ivesss-firearms-pack
 ㄴ 총 시안 1번
 
-https://vladpenn.itch.io/weapon
-ㄴ 총 시안 2번
+https://trevor-pupkin.itch.io/tech-dungeon-roguelite
+ㄴ 타일셋 및 캐릭터 (미래풍)
 
-https://snoopethduckduck.itch.io/guns
-ㄴ 총 시안 3번 (좀 화려한데 안어울릴듯)
+https://kenney-assets.itch.io/input-prompts-pixel-16
+ㄴ 인풋 프롬프트
+
+https://kokororeflections.itch.io/kr-ultimate-sci-fi-frontier-rpg-assets
+ㄴ 타일셋 및 캐릭터 (미래풍), 단 사용할 캐릭터와는 이질감이 있을거같음
+
+https://thkaspar.itch.io/mini-fi-asset-pack
+ㄴ 몹, 보스
+
+https://ansimuz.itch.io/warped-props
+ㄴ 무기/도구 미래풍
+
+<참고할만한 사이트>
+https://codesandbox.io/s/p5pqqjk6q0?hidenavigation=1&module=/js/index.js&moduleview=1&file=/js/platformer-scene.js

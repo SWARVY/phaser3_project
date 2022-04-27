@@ -17,9 +17,7 @@ class Scene1 extends Phaser.Scene {
 	}
 	
 	create() {
-		this.add.text(20, 20, "Loading game...");
 		this.scene.start("playGame");
-		
 		this.anims.create({
 			key: "knight_Idle",
 			frames: this.anims.generateFrameNumbers("knight_idle"),
