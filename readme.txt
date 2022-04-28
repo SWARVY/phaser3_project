@@ -7,9 +7,10 @@
 1. git pull (내가 가지고 있는 버전이 과거버전인경우)
 
 
-<진척도>
-1. movement 마무리 (04. 26.) 완
-2. 공격 구현
+<체크리스트>
+1. 공격 구현
+ㄴ bullet group으로 잡고 구현할것
+
 
 <ASSET>
 https://cafedraw.itch.io/fantasy-card-assets

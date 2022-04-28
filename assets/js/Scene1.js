@@ -14,6 +14,18 @@ class Scene1 extends Phaser.Scene {
 			frameWidth: 16,
 			frameHeight: 16
 		});
+		this.load.spritesheet("crosshair", "assets/sprite/dungeon_crawler/ui/crosshair_3.png", {
+			frameWidth: 16,
+			frameHeight: 16
+		});
+		this.load.spritesheet("pistol", "assets/sprite/outlined_free/pistol10.png", {
+			frameWidth: 16,
+			frameHeight: 16
+		});
+		this.load.spritesheet("bullet", "assets/sprite/dungeon_crawler/props_items/barrel.png", {
+			frameWidth: 16,
+			frameHeight: 16
+		});
 	}
 	
 	create() {

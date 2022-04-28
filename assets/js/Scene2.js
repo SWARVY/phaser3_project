@@ -4,7 +4,7 @@ class Scene2 extends Phaser.Scene {
 	}
 	
 	preload() {
-		this.load.script("player", "assets/js/Player.js");
+		// this.load.script("player", "assets/js/Player.js");
 	}
 	
 	create() {
@@ -25,6 +25,7 @@ class Scene2 extends Phaser.Scene {
 	update() {
 		this.background.tilePositionX += 0.2;
 		this.playermanager();
+		this.shooting();
 	}
 	
 	playermanager() {
@@ -59,5 +60,18 @@ class Scene2 extends Phaser.Scene {
 		if(this.check_x === 0 && this.check_y === 0) {
 			this.player.anims.play("knight_Idle", true);
 		}
+	}
+	
+	shooting() {
+		// this.add.text(20, 50, this.angle, {
+		// 	font: "15px Arial", 
+		// 	fill: "yellow"
+		// });
+		this.input.on('pointermove', function (pointer) {
+      		this.cursor = pointer;
+      		this.angle = Phaser.Math.Angle.Between(this.player.x, this.player.y, this.cursor.x + this.cameras.main.scrollX, this.cursor.y + this.cameras.main.scrollY)
+		}, this);
+		
+		console.log(this.angle);
 	}
 }
