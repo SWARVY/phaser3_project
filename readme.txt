@@ -10,6 +10,15 @@
 <체크리스트>
 1. 공격 구현
 ㄴ bullet group으로 잡고 구현할것
+2. 코드분리방법좀제발제발
+
+
+<필독자료>
+https://phaserjs.tistory.com/8?category=665793
+https://phaserjs.tistory.com/25?category=665793
+https://www.youtube.com/watch?v=9wvlAzKseCo
+
+
 
 
 <ASSET>
